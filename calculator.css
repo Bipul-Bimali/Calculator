@@ -1,0 +1,91 @@
+
+body{
+    background: -webkit-linear-gradient(left, red, blue);
+    scale: fit-content;
+}
+.calculator{
+    align-items:right;
+    justify-content:right;
+
+}
+.display{
+    font-size: 40px;
+    font-weight:900;
+    min-height: 100px;
+    grid-template-rows: 40px 40px;
+    grid-gap: 3px;
+    background-color: red;
+    width:210px;
+    align-items:right;
+    word-break:break-all;
+    border-radius: 10px 10px 0px 0px;
+}
+button{
+    position: relative;
+    background-color: skyblue;
+    box-shadow: 2px 2px 2px black;
+}
+.numpad{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+    grid-template-rows:40px 40px 40px 40px 40px;
+    grid-gap: 3px;
+    min-height: 100vh ;
+}
+button:hover{
+    background-color: aqua;
+}
+.span-2{
+ width: 83px;
+}
+.animate{
+    background-color: red;
+    height: 3em;
+    width: 3em;
+    transition: ease-in-out;
+    transition-duration: 500ms;
+    border-radius: 50px 50px 0px 0px;
+}
+.animate:hover{
+    animation: animate 2s ease-in-out backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    100%{
+        background-color: yellow;
+        width:100%
+    }
+    50%{
+        
+    }
+    
+}
+.loading{
+    height: 20px;
+    width: 20px;
+    background-color: yellowgreen;
+    border-radius: 10px 10px 10px 10px;
+    animation: rotate 1s linear both infinite;
+}
+@keyframes rotate {
+    0%{rotateX: 0deg;
+    }
+    25%{
+        rotate: 90deg;
+        }
+    50%{
+        rotate: 180deg;
+    }
+    75%{
+        rotate: 270deg;
+    }
+    100%{
+        rotate: 360deg;}
+}
+.hide{
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px 7.5px 7.5px 7.5px;
+    background-color:white;
+}
