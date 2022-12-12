@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <script src="1.js" defer ></script>
+        <link rel="stylesheet" href="1.css">
+    </head>
+    <body>
+        <header>
+        </header>
+        <div>
+                <input type="number"  placeholder="number" id="a">
+                
+                <input type="text" id="b" class="sign" placeholder="+ ,_ ,* ,/" >
+                <input type="number" id="c" placeholder="second number" >
+                <button onclick="submit()" value="submit" >equals</button>
+        </div>
+        <hr color = white>
+        <hr color=white>
+        <div style="height:30px; width:100%"></div>
+           
+                <div align="center" class="calculator">
+                    <div class="animate"></div>
+                    <div align="center" class="display">
+                  <div data-first class="first_input"></div>
+                     <div data-second class="second_input"></div>
+                    </div>
+                    <div  class="numpad">
+                    <button data-a class="span-2">AC </button>
+                    <div class="nothing"></div>
+                    <button data-d>DEL</button>
+                    <button data-operand>*</button>
+                    <button data-up>2</button>
+                    <button data-number>1</button>
+                    <button data-number>2</button>
+                    <button data-number>3</button>
+                    <button data-operand>+</button>
+                    <button data-up>√</button>
+                    <button data-number>4</button>
+                    <button data-number>5</button>
+                    <button data-number>6</button>
+                    <button data-operand>-</button>
+                    <button data-up>!</button>
+                    <button data-number>7</button>
+                    <button data-number>8</button>
+                    <button data-number>9</button>
+                    <button data-operand>/</button>
+                    <button data-say>hello</button>
+                    <button data-number>.</button>
+                    <button data-number>0</button>
+                    <button data-number>1</button>
+                    <button data-e class="span-2">=</button>
+                    </div>
+            </div>
+        </div>
+        <div class="loading">
+            
+            <div class="hide"></div>
+        </div>
+    </body>
+</html>
