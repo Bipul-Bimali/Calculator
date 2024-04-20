@@ -64,26 +64,7 @@ class calculate{
       default:
         break;
     }
-/*   if (this.symb == '+'){
-    this.first = a+b;
-    this.display()
-    this.second = ''
-   }
-   if (this.symb == '-'){
-    this.first = a-b;
-    this.display()
-    this.second = ''
-   }
-   if (this.symb == '*'){
-    this.first = a*b;
-    this.display()
-    this.second = ''
-   }
-   if (this.symb == '/'){
-    this.first = a/b;
-    this.display()
-    this.second = ''
-   }*/
+
   }
   find(func){
     if (first_num.innerText==''){
